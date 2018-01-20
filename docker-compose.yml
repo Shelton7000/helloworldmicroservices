@@ -17,7 +17,7 @@ rest:
     - rabbitmq:rabbitmqalias
     - redis:redisalias
   ports:
-    - 8080:8080
+    - 8081:8081
   environment:
     REDIS_HOST: redisalias
     RABBIT_MQ_HOST: rabbitmqalias
@@ -25,7 +25,7 @@ rest:
 web:
   build: helloworldwebmicroservice
   ports:
-    - 80:8080
+    - 8083:8083
 
 log:
   build: helloworldlogmicroservice/

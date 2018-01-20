@@ -10,6 +10,6 @@ RUN npm install && grunt dependencies
 ADD src /workdir/src
 RUN grunt package
 
-EXPOSE 8080
+EXPOSE 8083
 
-ENTRYPOINT ["http-server","/workdir/site", "-p", "8080"]
+ENTRYPOINT ["http-server","/workdir/site", "-p", "8083"]
