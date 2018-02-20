@@ -11,7 +11,6 @@ RUN npm install && grunt dependencies
 
 
 
-
 ADD src /workdir/src
 RUN grunt package
 
