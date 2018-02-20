@@ -10,6 +10,7 @@ ADD ["bower.json","Gruntfile.js","package.json","/workdir/"]
 RUN npm install && grunt dependencies
 
 
+
 ADD src /workdir/src
 RUN grunt package
 
