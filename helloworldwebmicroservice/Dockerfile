@@ -19,7 +19,4 @@ RUN grunt package
 
 
 
-
-
-
 ENTRYPOINT ["http-server","/workdir/site", "-p", "8083"]
