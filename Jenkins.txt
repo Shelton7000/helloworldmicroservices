@@ -13,3 +13,4 @@ node {
 
        app = docker.build("helloworldmicroservices/helloworldwebmicroservice/Dockerfile")
     }
+}
