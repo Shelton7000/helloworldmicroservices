@@ -17,6 +17,6 @@ node
        
 	  
 	  
-	  app = docker.build("helloworldwebmicroservices")
+	  app = docker.build("helloworldmicroservices")
     }
 }
