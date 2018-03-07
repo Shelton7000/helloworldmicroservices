@@ -17,6 +17,6 @@ node
        
 	  
 	  
-	  app = docker.build("helloworldwebmicroservice")
+	   sh 'docker build -t helloworldwemicroservice .'
     }
 }
