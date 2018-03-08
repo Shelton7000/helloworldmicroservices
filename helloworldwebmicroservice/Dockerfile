@@ -5,7 +5,7 @@ RUN npm install -g grunt-cli && npm install -g http-server
 
 WORKDIR /
 EXPOSE 8083
-ADD ["bower.json","Gruntfile.js","package.json","/workdir/"]
+ADD ["bower.json","Gruntfile.js","package.json","/"]
 
 RUN npm install && grunt dependencies
 
