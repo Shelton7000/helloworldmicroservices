@@ -17,6 +17,6 @@ node
        
 	  
 	  
-	   sh 'docker build -t helloworldwebmicroservice .'
+	   sh 'docker build -t http://192.168.99.100:2375 .'
     }
 }
