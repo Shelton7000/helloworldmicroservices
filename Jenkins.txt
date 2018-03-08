@@ -17,6 +17,6 @@ node
        
 	  
 	  
-	   sh 'docker build -t github.com/Shelton7000/helloworldmicroservices'
+	   sh 'docker build -t github.com/shelton7000/helloworldmicroservices'
     }
 }
