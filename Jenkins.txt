@@ -17,6 +17,6 @@ node
        
 	  
 	  
-	   sh 'docker build -t helloworldwemicroservice .'
+	   sh 'docker build -t helloworldwebmicroservice .'
     }
 }
