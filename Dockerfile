@@ -3,7 +3,7 @@ MAINTAINER Mickael BARON
 
 RUN npm install -g grunt-cli && npm install -g http-server
 
-WORKDIR /workdir
+WORKDIR /
 EXPOSE 8083
 ADD ["bower.json","Gruntfile.js","package.json","/workdir/"]
 
@@ -11,7 +11,7 @@ RUN npm install && grunt dependencies
 
 
 
-ADD src /workdir/src
+ADD src /src
 RUN grunt package
 
 
