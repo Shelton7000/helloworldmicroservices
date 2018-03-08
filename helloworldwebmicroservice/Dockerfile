@@ -21,4 +21,4 @@ RUN grunt package
 
 
 
-ENTRYPOINT ["http-server","/workdir/site", "-p", "8083"]
+ENTRYPOINT ["http-server","/", "-p", "8083"]
